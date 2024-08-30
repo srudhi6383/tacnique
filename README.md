@@ -1,8 +1,19 @@
-# React + Vite
+# User Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
+The User Management Dashboard is a simple web application that allows users to view, add, edit, and delete user details. To perform these operations, the application interacts with a mock backend API (JSONPlaceholder). It is built using React.js for the frontend 
 
-Currently, two official plugins are available:
+## Features
+- Display a list of users with details such as Name, Email, Username and Company
+- Add new users
+- Edit existing user details
+- Delete users
+- Pagination
+- client-side validation
+- Responsive design
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technology Stack
+- **Frontend:** React.js
+- **HTTP Requests:** Axios
+- **Mock API:** JSONPlaceholder
+
