@@ -1,13 +1,3 @@
-body {
-  background-color: #134980; /* Blue color */
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 #root {
   max-width: 1280px;
   margin: 0 auto;

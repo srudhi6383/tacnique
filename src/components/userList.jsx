@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import UserForm from './userForm';
+import UserForm from './UserForm';
 import {
   Button,
   VStack,
@@ -15,7 +15,6 @@ import {
   useToast
 } from "@chakra-ui/react";
 import { AddIcon, EditIcon, DeleteIcon } from "@chakra-ui/icons";
-
 
 const UserList = () => {
   const [users, setUsers] = useState([]);
@@ -86,7 +85,7 @@ const UserList = () => {
 
   return (
     <VStack spacing={4} p={5} align="stretch" bgGradient='linear(to-r, blue.100, blue.300)'>
-      <Text fontSize="2xl" textAlign="center" fontWeight="bold" color="brown.100">
+       <Text fontSize="2xl" textAlign="center" fontWeight="bold">
         User Management Dashboard
       </Text>
       <Flex align="center" gap={4} mb={4}>
